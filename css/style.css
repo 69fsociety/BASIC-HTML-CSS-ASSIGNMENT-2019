@@ -1,0 +1,340 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/3.jpg);
+    font-family: 'Poppins', sans-serif;
+    color: #d8d8d8;
+}
+
+.main {
+    background: rgba(16, 14, 19, 0.8);
+}
+
+.toptable {
+    padding: 0 10 10 0;
+    max-height: 100%;
+    width: 100%;
+    background-color: #6930c3;
+}
+
+.top {
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top h2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 50px;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+.top a {
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.top .navitems {
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.top .navitems:hover {
+    background-color: #6930c3;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.top .dropdown {
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.top .dropdown:hover {
+    background-color: #6930c3;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.dropdown a {
+    text-decoration: none;
+}
+
+.dropdown-content {
+    min-height: 150px;
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    padding: 20px 20px 20px 20px;
+}
+
+.dropdown-content a {
+    padding: 5px 5px 5px 5px;
+    font-size: 1.2rem;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    transition-duration: 0.5s;
+}
+
+.dropdown-content a:hover {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #222831;
+}
+
+.marquee1 {
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.9);
+    padding: 5px 0 0 0;
+    background-color: #222831;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.heading1 {
+    background-color: #1a1c20;
+    padding: 10px 10px;
+    margin: 0;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.8);
+}
+
+.Syllabus {
+    padding: 1%;
+    margin-top: 5%;
+    padding-bottom: 4%;
+    margin-left: 20%;
+    background-color: rgb(26, 28, 32, 0.9);
+    width: 60%;
+    height: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 1.5%;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.8);
+}
+
+.Syllabus p {
+    margin: 5%;
+    text-transform: uppercase;
+    background-color: rgb(105, 48, 195, 0.4);
+    color: #ffffff;
+    padding: 15px 10px 10px 15px;
+    font-size: 25px;
+}
+
+.Syllabus a {
+    background-color: #1a1c20;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 6%;
+    transition-duration: 0.3s;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.8);
+}
+
+.Syllabus a:hover {
+    background-color: #6930c3;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.middle {
+    padding: 2%;
+}
+
+.middle3 {
+    padding: 10PX 49PX 49PX 49PX;
+}
+
+.middle3 H2 {
+    background-color: rgb(26, 28, 32);
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.8);
+    margin-top: 0;
+    font-size: 2.5rem;
+    letter-spacing: 8px;
+    font-weight: 100;
+}
+
+.middletable {
+    margin-top: 2%;
+    background-color: rgb(26, 28, 32);
+    padding: 5%;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.8);
+}
+
+.middletable3 {
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    background-color: rgb(26, 28, 32);
+    padding: 5%;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.8);
+}
+
+.middletable2 {
+    padding: 50px 20px 20px 50px;
+    font-size: 20px;
+    background-color: #1a1c20;
+    margin: 50px 100px 100px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.8);
+}
+
+.middle a {
+    color: #838383;
+}
+
+.middle2 {
+    background-color: #1a1c20;
+    padding: 5%;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.8);
+}
+
+.middle2 a {
+    color: #838383;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.middle2 a:hover {
+    background-color: #1a1c20;
+    color: white;
+}
+
+.aboutpage {
+    background-color: rgb(26, 28, 32, 0.9);
+    color: #fff;
+    transition: 0.5s;
+    cursor: not-allowed;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.8);
+    font-size: 20px;
+}
+
+.aboutpage p {
+    color: #838383;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222831;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20PX;
+}
+
+.bottom img {
+    height: 30px;
+    transition: transform 1.5s;
+}
+
+.bottom img:hover {
+    border: 1px solid white;
+    border-radius: 70%;
+    transform: scale(2);
+}
+
+.aboutpage p:hover {
+    color: #fff;
+}
+
+.contactForm {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(26, 28, 32, 0.9);
+}
+
+.contactForm h2 {
+    padding-top: 20px;
+    margin-top: 0;
+    font-size: 2.5rem;
+    letter-spacing: 8px;
+    font-weight: 100;
+}
+
+#form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+
+input {
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.8);
+    background: rgb(26, 28, 32);
+    color: #726659;
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+textarea {
+    box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.8);
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    background: rgb(26, 28, 32);
+    outline: none;
+    color: #726659;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    border: solid 1px #b3aca7;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+#submit {
+    width: 502px;
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #b3aca7;
+    outline: none;
+    cursor: pointer;
+    border: solid 1px #b3aca7;
+    border-top: none;
+}
+
+#submit:hover {
+    color: #e2dedb;
+}
